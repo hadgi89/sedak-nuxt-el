@@ -1,0 +1,148 @@
+aside {
+  /* Cool Gray 800 https://tailwindcolor.com */
+  background-color: #1F2937;
+  
+  /* Cool Gray 400 https://tailwindcolor.com */
+  color: #9CA3AF;
+
+  /* Cool Gray 200 https://tailwindcolor.com */
+  /* active-text-color */
+  color: #E5E7EB;
+}
+
+
+header .user-menu {
+  
+  /* 
+  Blue Grey 600 
+  https://materialui.co/colors/ 
+  */ 
+  color: #546E7A;
+  
+  /* 
+  ### user-Desc ###
+  Blue Grey 300 
+  https://materialui.co/colors/ 
+  */
+  color: #90A4AE;
+
+
+  /* ########################## */
+  /* ### Active-Focus-Hover ### */
+  
+  /* 
+  Deep Purple 400/300
+  https://materialui.co/colors/ 
+  */
+  color: #7E57C2; 
+  /* color: #9575CD;  */
+
+  /* 
+  Indigo 50 
+  https://materialui.co/colors/ 
+  */
+  background-color: #E8EAF6;
+
+
+}
+
+
+* .el-avatar {
+  margin-right: 10px;
+} */
+/* .user-name {
+  display: block;
+  line-height: 1;
+  margin-bottom: 5px;
+  font-size: 15px;
+  font-weight: 600;
+} */
+
+/* .user-desc {
+  display: block;
+  line-height: 1;
+  font-size: 12px;
+  font-weight: 400;
+  color: #90A4AE;
+} */
+
+/* .el-dropdown-link {
+  color: #546E7A;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.60rem 0.9rem;
+  margin: 0 5px;
+  border-radius: 4px;
+  position: relative;
+  font-weight: 500;
+} */
+
+/* .el-dropdown-link.active, 
+.el-dropdown-link:active, 
+.el-dropdown-link:focus, 
+.el-dropdown-link:hover {
+  text-decoration: none;
+  color: #7E57C2; 
+  background: #E8EAF6;
+  cursor: pointer;
+} */
+
+/* .el-dropdown-menu {
+  width: 150px;
+} */
+
+/* .el-dropdown-item {
+  align-items: center ;
+  font-weight: 400;
+  background-color: blueviolet; 
+} */
+
+
+/* .dropdown-item.active, 
+.dropdown-item:active,
+.dropdown-item:hover, 
+.dropdown-item:focus {
+  color: #7E57C2;
+  text-decoration: none;
+  background-color: #E8EAF6;
+} */
+
+/* i.material-icons-two-tone {
+  background-color: #293240;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  vertical-align: middle;
+  margin-bottom: 3px;
+} */
+
+<el-dropdown trigger="click">
+      <span class="el-dropdown-link">
+        <el-avatar :size="40" src="img/user/avatar-2.jpg"></el-avatar>
+        <span>
+          <span class="user-name">Joseph William</span>
+          <span class="user-desc">Administrator</span>
+        </span>
+      </span>
+      <el-dropdown-menu slot="dropdown">
+        <el-dropdown-item class="dropdown-item">
+          <i class="material-icons-two-tone">account_circle</i>
+          My Account
+        </el-dropdown-item>
+        <el-dropdown-item class="dropdown-item">
+          <i class="material-icons-two-tone">settings</i>
+          Settings
+        </el-dropdown-item>
+        <el-dropdown-item class="dropdown-item">
+          <i class="material-icons-two-tone">support</i>
+          <span>Support</span>
+        </el-dropdown-item>
+        <el-dropdown-item class="dropdown-item">
+          <i class="material-icons-two-tone">lock</i>
+          Lock 
+        </el-dropdown-item>
+        <el-dropdown-item class="dropdown-item">
+          <i class="material-icons-two-tone">chrome_reader_mode</i>
+          Logout
+        </el-dropdown-item>
+      </el-dropdown-menu>
+    </el-dropdown> 
